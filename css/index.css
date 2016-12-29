@@ -1,0 +1,353 @@
+/*公共css*/
+.banxin {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.section {
+    overflow: hidden;
+}
+
+.transitionALL {
+    transition: all 1s;
+}
+
+/*头部导航开始*/
+.header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #fff url(../imgs/sprite.png) repeat-x;
+    z-index: 100;
+}
+
+.inHeader {
+    width: 960px;
+    height: 60px;
+    margin: 0 auto;
+    /*background:pink;*/
+}
+
+.inHeader h1 {
+    width: 155px;
+    height: 60px;
+    text-indent: -9999px;
+    background: url(../imgs/logo.jpg);
+    float: left;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.headerNav {
+    float: left;
+    height: 60px;
+}
+
+.headerNav li {
+    float: left;
+    height: 100%;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.headerNav li a {
+    padding: 0 20px;
+    color: #888888;
+    line-height: 60px;
+    display: inline-block;
+}
+
+.headerNav li .current, .headerNav li .clicked {
+    background: #FEA005;
+    color: #fff;
+}
+
+/*头部导航结束*/
+/*添加所有的背景图片*/
+.page1 {
+    background: url("../imgs/b1_bg.jpg") 0 0 no-repeat;
+}
+
+.page2 {
+    background: url("../imgs/b2_bg.jpg") 0 0 no-repeat;
+}
+
+.page3 {
+    background: url("../imgs/b3_bg.jpg") 0 0 no-repeat;
+}
+
+.page4 {
+    background: url("../imgs/b5_bg.jpg") 0 0 no-repeat;
+}
+
+.page5 {
+    background: url("../imgs/b6_bg.jpg") 0 0 no-repeat;
+}
+
+.page6 {
+    background: url("../imgs/b7_bg.jpg") 0 0 no-repeat;
+}
+
+/*设置所有背景结束*/
+/*第一屏开始*/
+.section {
+    position: relative;
+}
+
+.wind {
+    width: 709px;
+    height: 625px;
+    position: absolute;
+    top: -100px;
+    left: -60px;
+    opacity: 0;
+    background: url("../imgs/b1_02.png") 0 0 no-repeat;
+    z-index: 1;
+}
+
+.comIn .wind {
+    top: 100px;
+    left: 30px;
+    opacity: 1;
+}
+
+.txt {
+    width: 328px;
+    height: 211px;
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    opacity: 0;
+    margin-top: -110px;
+}
+
+.comIn .txt {
+    top: 50%;
+    right: 120px;
+    opacity: 1;
+}
+
+.txt .pro {
+    width: 328px;
+    height: 162px;
+    background: url("../imgs/b1_03.png") 0 0 no-repeat;
+}
+
+.txt .tiyan {
+    width: 141px;
+    height: 39px;
+    background: url("../imgs/b1_03_btn.png") 0 0 no-repeat;
+    margin-top: 10px;
+}
+
+.stone {
+    width: 1440px;
+    height: 441px;
+    background: url("../imgs/b1_01.png") 0 0 no-repeat;
+    position: absolute;
+    bottom: -300px;
+    opacity: 0;
+    left: 50%;
+    margin-left: -750px;
+}
+
+.comIn .stone {
+    bottom: -150px;
+    opacity: 1;
+}
+
+/*第一屏结束*/
+/*第二屏开始*/
+.hand {
+    width: 782px;
+    height: 628px;
+    position: absolute;
+    top: 400px;
+    opacity: 0;
+    left: -600px;
+    background: url(../imgs/b2_01.png) 0 0 no-repeat;
+}
+
+.comIn .hand {
+    top: 140px;
+    opacity: 1;
+    left: -300px;
+}
+
+.qiye h3 {
+    display: block;
+    width: 350px;
+    height: 30px;
+    font: 700 30px "microsoft yahei";
+    color: #fff;
+    position: absolute;
+    top: 270px;
+    left: 690px;
+    opacity: 0;
+    /*z-index: 4;*/
+}
+
+.comIn .qiye h3 {
+    left: 590px;
+    opacity: 1;
+}
+
+.wangmin h4 {
+    display: block;
+    width: 350px;
+    height: 30px;
+    font: 400 14px "microsoft yahei";
+    color: #fff;
+    position: absolute;
+    top: 360px;
+    left: 490px;
+    opacity: 0;
+    /*z-index: 4;*/
+}
+
+.comIn .wangmin h4 {
+    left: 590px;
+    opacity: 1;
+}
+
+.ball {
+    width: 283px;
+    height: 297px;
+    background: url("../imgs/b2_06.png") no-repeat 0 0;
+    position: absolute;
+    top: 530px;
+    opacity: 0;
+    right: 0;
+}
+
+.comIn .ball {
+    top: 330px;
+    opacity: 1;
+}
+
+/*第二屏结束*/
+/*第三屏开始*/
+.head {
+    width: 960px;
+    /*height: 155px;*/
+    border-bottom: 1px solid #ccc;
+    margin: 200px auto 0;
+    text-align: center;
+}
+
+.head h1 {
+    font:700 30px/60px "microsoft yahei";
+    color: #888888;
+}
+.color{
+    color:#FEA005
+}
+.head h4 {
+    font:400 14px/60px "microsoft yahei";
+    color: #cccccc;
+}
+.flower{
+    width: 371px;
+    height: 347px;
+    background:  url(../imgs/b3_01.png) 0 0 no-repeat;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: -135px -180px;
+    opacity: 0;
+}
+.comIn .flower{
+    transform:rotate(-360deg) ;
+    opacity: 1;
+}
+.jieshao{
+    position: relative;
+}
+.jieshao h2{
+     width: 310px;
+     height: 35px;
+     font:700 18px/35px "microsoft yahei";
+     text-align: right;
+ }
+.jieshao h4{
+    width: 310px;
+    height:60px;
+    font:400 13px/20px "microsoft yahei";
+    color:#ccc;
+    text-align: center;
+}
+.jieshao li{
+    display: block;
+    position: absolute;
+    width: 310px;
+    height: 100px;
+}
+.jieshao li:nth-child(1){
+     top: 60px;
+     left: 200px;
+    opacity: 0;
+ }
+.comIn .jieshao li:nth-child(1){
+    left: 160px;
+    opacity: 1;
+}
+.jieshao li:nth-child(2){
+     top: 200px;
+     left: 160px;
+    opacity: 0;
+ }
+.comIn .jieshao li:nth-child(2){
+    left: 100px;
+    opacity: 1;
+}
+.jieshao li:nth-child(3){
+    top: 350px;
+    left: 210px;
+    opacity: 0;
+}
+.comIn .jieshao li:nth-child(3){
+    left: 150px;
+    opacity: 1;
+}
+.jieshao li:nth-child(4){
+    top: 60px;
+    left: 690px;
+    opacity: 0;
+}
+.comIn .jieshao li:nth-child(4){
+    left: 750px;
+    opacity: 1;
+}
+.jieshao li:nth-child(4) h2,.jieshao li:nth-child(4) h4{
+    text-align: left;
+}
+.jieshao li:nth-child(5){
+    top: 200px;
+    left: 760px;
+    opacity: 0;
+}
+.comIn .jieshao li:nth-child(5){
+    left: 820px;
+    opacity: 1;
+}
+.jieshao li:nth-child(5) h2,.jieshao li:nth-child(5) h4{
+    text-align: left;
+}
+.jieshao li:nth-child(6){
+    top: 350px;
+    left: 690px;
+    opacity: 0;
+}
+.comIn .jieshao li:nth-child(6){
+    left: 750px;
+    opacity: 1;
+}
+.jieshao li:nth-child(6) h2,.jieshao li:nth-child(6) h4{
+    text-align: left;
+}
+/*第三屏结束*/
